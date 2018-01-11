@@ -1,0 +1,11 @@
+<accessibility-service
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:summary="Toy Accessibility Service"
+    android:accessibilityEventTypes="typeViewClicked|typeViewFocused"
+    android:accessibilityFeedbackType="feedbackAllMask"
+    android:accessibilityFlags="flagDefault"
+    android:canRequestTouchExplorationMode="true"
+    android:canRetrieveWindowContent="true"
+    android:notificationTimeout="100"
+    tools:ignore="UnusedAttribute" />
